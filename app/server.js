@@ -74,7 +74,7 @@ const spells = [
     name: "ライオットホーン！",
     chant: "地の底を這いし魔神 、汝の角で地上の敵を打ち砕け",
     chant_short: "微塵に砕け！",
-    is_skill_change: false,
+    is_skill_change: true,
     after: "",
   },
   {
@@ -193,7 +193,7 @@ const spells = [
     name: "バーンストライク！",
     chant: "来たれ爆炎！　焼き尽くせ！",
     chant_short: "以下省略！",
-    is_skill_change: false,
+    is_skill_change: true,
     after: "",
   },
 ];
