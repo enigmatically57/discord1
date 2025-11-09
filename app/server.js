@@ -72,14 +72,14 @@ const spells = [
   },
   {
     name: "ライオットホーン！",
-    chant: "地の底を這いし魔神 、汝の角で地上の敵を打ち砕け",
+    chant: "地の底を這いし魔神、汝の角で地上の敵を打ち砕け",
     chant_short: "微塵に砕け！",
     is_skill_change: true,
     after: "",
   },
   {
     name: "グランドダッシャー！",
-    chant: "大地の脈動 、その身を贄にして敵を砕かん",
+    chant: "大地の脈動、その身を贄にして敵を砕かん",
     chant_short: "以下省略！",
     is_skill_change: false,
     after: "",
@@ -100,7 +100,7 @@ const spells = [
   },
   {
     name: "アクアレイザー！",
-    chant: "蒼き命を讃えし母よ 、破断し清烈なる産声を上げよ",
+    chant: "蒼き命を讃えし母よ、破断し清烈なる産声を上げよ",
     chant_short: "打ち上げろ！",
     is_skill_change: true,
     after: "",
@@ -163,7 +163,7 @@ const spells = [
   },
   {
     name: "ブラッディハウリング！",
-    chant: "集え暗き炎よ 、宴の客を戦慄の歌で迎え もて成せ",
+    chant: "集え暗き炎よ 、宴の客を戦慄の歌で迎え、もて成せ",
     chant_short: "黄泉への誘い！",
     is_skill_change: true,
     after: "",
@@ -184,7 +184,7 @@ const spells = [
   },
   {
     name: "メテオスウォーム！",
-    chant: "宙(そら)に放浪せし無数の粉塵 、驟雨となり大地を礼賛す",
+    chant: "宙(そら)に放浪せし無数の粉塵、驟雨となり大地を礼賛す",
     chant_short: "以下省略！",
     is_skill_change: false,
     after: "",
@@ -229,7 +229,7 @@ const burstArts = [
 const hiOugi = {
   label: "【第一秘奥義！】",
   chant:
-    "万象を成しえる根源たる力…太古に刻まれしその記憶\n我が呼び声に応え、今、此処に蘇れ！",
+    "万象を成しえる根源たる力…太古に刻まれしその記憶、我が呼び声に応え、今、此処に蘇れ！",
   name: "エンシェントカタストロフィ！",
   after: "これがあたしの研究成果よ！",
 };
