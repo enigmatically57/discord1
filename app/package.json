@@ -1,8 +1,14 @@
 {
-  "name": "my-discord-bot",
+  "name": "discord1",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "type": "module",
-  "dependencies": {}
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
 }
+
