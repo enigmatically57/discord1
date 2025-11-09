@@ -1,4 +1,6 @@
 import { Client, GatewayIntentBits, Events } from "discord.js";
+import express from "express";
+
 // ====== 設定部分 ======
 const client = new Client({
   intents: [
@@ -342,3 +344,14 @@ client.on(Events.MessageCreate, async (message) => {
 
 // ====== Botログイン ======
 client.login(process.env.YOUR_BOT_TOKEN); // ←ここを自分のBotトークンに変更
+
+// Webサーバーを作成（スリープ防止用）
+const app = express();
+app.get("/", (req, res) => {
+  res.send("Bot is alive!");
+});
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Web server running on port ${port}`);
+});
