@@ -327,7 +327,7 @@ client.once(Events.ClientReady, () => {
   if (!channel) return;
   setInterval(() => {
     const now = new Date();
-    const hour = now.getHours();
+    const hour = now.getHours() + 9;
     // 23:00～5:00はスキップ
     if (now.getMinutes() === 0 && !(hour >= 23 || hour < 5)) {
       triggerMagic(channel);
