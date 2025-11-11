@@ -241,7 +241,7 @@ const daiOugi = {
   after: "",
 };
 
-const overlimitProb = 0.05; // 5%発動
+const overlimitProb = 0.15; // 5%発動
 
 // ====== 状態管理 ======
 let usageCount = 0;
